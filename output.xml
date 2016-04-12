@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20160311 23:57:53.741" generator="Robot 3.0 (Python 2.7.10 on darwin)">
+<suite source="/Users/GeeSlimmy/PycharmProjects/RobotProject" id="s1" name="RobotProject">
+<suite source="/Users/GeeSlimmy/PycharmProjects/RobotProject/TestSuite.robot" id="s1-s1" name="TestSuite">
+<test id="s1-s1-t1" name="Test title">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://www.google.com/</arg>
+</arguments>
+<msg timestamp="20160311 23:57:54.020" level="INFO">Opening browser 'firefox' to base url 'http://www.google.com/'</msg>
+<status status="PASS" endtime="20160311 23:57:57.656" starttime="20160311 23:57:54.019"></status>
+</kw>
+<tags>
+<tag>DEBUG</tag>
+</tags>
+<status status="PASS" endtime="20160311 23:57:57.658" critical="yes" starttime="20160311 23:57:54.019"></status>
+</test>
+<doc>Suite description</doc>
+<status status="PASS" endtime="20160311 23:57:57.659" starttime="20160311 23:57:53.770"></status>
+</suite>
+<status status="PASS" endtime="20160311 23:57:57.662" starttime="20160311 23:57:53.743"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">DEBUG</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="RobotProject" pass="1">RobotProject</stat>
+<stat fail="0" id="s1-s1" name="TestSuite" pass="1">RobotProject.TestSuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

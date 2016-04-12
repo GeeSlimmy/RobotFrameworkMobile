@@ -1,0 +1,288 @@
+2016-04-11 20:28:28:914 - info: Welcome to Appium v1.4.8 (REV c8179bd8352d3c62d98fa58b324491230df9342a)
+2016-04-11 20:28:28:917 - info: Appium REST http interface listener started on 0.0.0.0:4723
+2016-04-11 20:28:28:920 - info: [debug] Non-default server args: {"app":"/Users/Admin/Downloads/android-release.apk","log":"/Users/Admin/PycharmProjects/RobotProject/Appium.log","androidPackage":"com.csod.mobile.CSOD","androidActivity":"com.csod.mobile.CSOD.MainActivity","avd":"Nexus_S","platformName":"Android","platformVersion":"4.4","automationName":"Appium","defaultCommandTimeout":7200,"debugLogSpacing":true}
+2016-04-11 20:28:28:921 - info: Console LogLevel: debug
+2016-04-11 20:28:28:921 - info: File LogLevel: debug
+2016-04-11 20:28:29:440 - info: --> GET /wd/hub/status {}
+2016-04-11 20:28:29:441 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:28:29:449 - info: <-- GET /wd/hub/status 200 9.251 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:28:36:669 - info: --> GET /wd/hub/status {}
+2016-04-11 20:28:36:670 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:28:36:673 - info: <-- GET /wd/hub/status 200 4.738 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:28:40:597 - info: --> GET /wd/hub/status {}
+2016-04-11 20:28:40:597 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:28:40:598 - info: <-- GET /wd/hub/status 200 1.528 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:28:42:004 - info: --> POST /wd/hub/session {"desiredCapabilities":{"deviceName":"/Users/Admin/.android/avd/Nexus_S.avd","app":"/Users/Admin/Downloads/android-release.apk","platformVersion":"4.4.2","appPackage":"com.csod.mobile.CSOD","platformName":"Android","appActivity":"com.csod.mobile.CSOD.MainActivity"}}
+2016-04-11 20:28:42:005 - info: Client User-Agent string: Python-urllib/2.7
+2016-04-11 20:28:42:006 - info: *************************************
+2016-04-11 20:28:42:007 - info: *************************************
+2016-04-11 20:28:42:007 - info: *************************************
+2016-04-11 20:28:42:007 - info: *************************************
+2016-04-11 20:28:42:007 - info: *************************************
+2016-04-11 20:28:42:008 - info: *************************************
+2016-04-11 20:28:42:008 - info: *************************************
+2016-04-11 20:28:42:008 - info: *************************************
+2016-04-11 20:28:42:008 - info: ****        NEW SESSION           ***
+2016-04-11 20:28:42:008 - info: ****        NEW SESSION           ***
+2016-04-11 20:28:42:008 - info: ****        NEW SESSION           ***
+2016-04-11 20:28:42:009 - info: ****        NEW SESSION           ***
+2016-04-11 20:28:42:009 - info: ****        NEW SESSION           ***
+2016-04-11 20:28:42:009 - info: ****        NEW SESSION           ***
+2016-04-11 20:28:42:009 - info: ****        NEW SESSION           ***
+2016-04-11 20:28:42:010 - info: ****        NEW SESSION           ***
+2016-04-11 20:28:42:010 - info: *************************************
+2016-04-11 20:28:42:010 - info: *************************************
+2016-04-11 20:28:42:010 - info: *************************************
+2016-04-11 20:28:42:010 - info: *************************************
+2016-04-11 20:28:42:010 - info: *************************************
+2016-04-11 20:28:42:011 - info: *************************************
+2016-04-11 20:28:42:011 - info: *************************************
+2016-04-11 20:28:42:012 - info: *************************************
+2016-04-11 20:28:42:016 - info: [debug] Using local app from desired caps: /Users/Admin/Downloads/android-release.apk
+2016-04-11 20:28:42:017 - info: [debug] Creating new appium session 2b41814d-82fb-44a2-b96b-47d70d7b7b5a
+2016-04-11 20:28:42:017 - info: Starting android appium
+2016-04-11 20:28:42:019 - info: [debug] Getting Java version
+2016-04-11 20:28:42:114 - info: Java version is: 1.7.0_79
+2016-04-11 20:28:42:115 - info: [debug] Checking whether adb is present
+2016-04-11 20:28:42:117 - info: [debug] Using adb from /Users/Admin/Library/Android/sdk/platform-tools/adb
+2016-04-11 20:28:42:118 - info: [debug] Using fast reset? true
+2016-04-11 20:28:42:118 - info: [debug] Preparing device for session
+2016-04-11 20:28:42:119 - info: [debug] Checking whether app is actually present
+2016-04-11 20:28:42:119 - info: [debug] Trying to find Nexus_S emulator
+2016-04-11 20:28:42:120 - info: [debug] Getting connected emulators
+2016-04-11 20:28:42:120 - info: [debug] Getting connected devices...
+2016-04-11 20:28:42:121 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb devices
+2016-04-11 20:28:42:134 - info: [debug] 0 device(s) connected
+2016-04-11 20:28:42:134 - info: [debug] 0 emulator(s) connected
+2016-04-11 20:28:42:135 - info: [debug] Launching Emulator with AVD Nexus_S, launchTimeout 120000ms and readyTimeout 120000ms
+2016-04-11 20:28:42:135 - info: [debug] Checking whether emulator is present
+2016-04-11 20:28:42:137 - info: [debug] Using emulator from /Users/Admin/Library/Android/sdk/tools/emulator
+2016-04-11 20:28:42:140 - info: [debug] Trying to find Nexus_S emulator
+2016-04-11 20:28:42:140 - info: [debug] Getting connected emulators
+2016-04-11 20:28:42:140 - info: [debug] Getting connected devices...
+2016-04-11 20:28:42:141 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb devices
+2016-04-11 20:28:42:156 - info: [debug] 0 device(s) connected
+2016-04-11 20:28:42:156 - info: [debug] 0 emulator(s) connected
+2016-04-11 20:28:44:160 - info: [debug] Trying to find Nexus_S emulator
+2016-04-11 20:28:44:161 - info: [debug] Getting connected emulators
+2016-04-11 20:28:44:161 - info: [debug] Getting connected devices...
+2016-04-11 20:28:44:162 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb devices
+2016-04-11 20:28:44:181 - info: [debug] 0 device(s) connected
+2016-04-11 20:28:44:181 - info: [debug] 0 emulator(s) connected
+2016-04-11 20:28:46:185 - info: [debug] Trying to find Nexus_S emulator
+2016-04-11 20:28:46:185 - info: [debug] Getting connected emulators
+2016-04-11 20:28:46:186 - info: [debug] Getting connected devices...
+2016-04-11 20:28:46:187 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb devices
+2016-04-11 20:28:46:205 - info: [debug] 0 device(s) connected
+2016-04-11 20:28:46:206 - info: [debug] 0 emulator(s) connected
+2016-04-11 20:28:48:206 - info: [debug] Trying to find Nexus_S emulator
+2016-04-11 20:28:48:206 - info: [debug] Getting connected emulators
+2016-04-11 20:28:48:206 - info: [debug] Getting connected devices...
+2016-04-11 20:28:48:207 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb devices
+2016-04-11 20:28:48:220 - info: [debug] 0 device(s) connected
+2016-04-11 20:28:48:220 - info: [debug] 0 emulator(s) connected
+2016-04-11 20:28:50:223 - info: [debug] Trying to find Nexus_S emulator
+2016-04-11 20:28:50:223 - info: [debug] Getting connected emulators
+2016-04-11 20:28:50:223 - info: [debug] Getting connected devices...
+2016-04-11 20:28:50:224 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb devices
+2016-04-11 20:28:50:239 - info: [debug] 0 device(s) connected
+2016-04-11 20:28:50:240 - info: [debug] 0 emulator(s) connected
+2016-04-11 20:28:52:243 - info: [debug] Trying to find Nexus_S emulator
+2016-04-11 20:28:52:243 - info: [debug] Getting connected emulators
+2016-04-11 20:28:52:243 - info: [debug] Getting connected devices...
+2016-04-11 20:28:52:244 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb devices
+2016-04-11 20:28:52:258 - info: [debug] 0 device(s) connected
+2016-04-11 20:28:52:258 - info: [debug] 0 emulator(s) connected
+2016-04-11 20:28:54:263 - info: [debug] Trying to find Nexus_S emulator
+2016-04-11 20:28:54:263 - info: [debug] Getting connected emulators
+2016-04-11 20:28:54:264 - info: [debug] Getting connected devices...
+2016-04-11 20:28:54:264 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb devices
+2016-04-11 20:28:54:282 - info: [debug] 0 device(s) connected
+2016-04-11 20:28:54:282 - info: [debug] 0 emulator(s) connected
+2016-04-11 20:28:56:283 - info: [debug] Trying to find Nexus_S emulator
+2016-04-11 20:28:56:283 - info: [debug] Getting connected emulators
+2016-04-11 20:28:56:283 - info: [debug] Getting connected devices...
+2016-04-11 20:28:56:284 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb devices
+2016-04-11 20:28:56:301 - info: [debug] 0 device(s) connected
+2016-04-11 20:28:56:301 - info: [debug] 0 emulator(s) connected
+2016-04-11 20:28:58:303 - info: [debug] Trying to find Nexus_S emulator
+2016-04-11 20:28:58:303 - info: [debug] Getting connected emulators
+2016-04-11 20:28:58:303 - info: [debug] Getting connected devices...
+2016-04-11 20:28:58:303 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb devices
+2016-04-11 20:28:58:318 - info: [debug] 0 device(s) connected
+2016-04-11 20:28:58:319 - info: [debug] 0 emulator(s) connected
+2016-04-11 20:29:00:324 - info: [debug] Trying to find Nexus_S emulator
+2016-04-11 20:29:00:324 - info: [debug] Getting connected emulators
+2016-04-11 20:29:00:325 - info: [debug] Getting connected devices...
+2016-04-11 20:29:00:325 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb devices
+2016-04-11 20:29:00:342 - info: [debug] 0 device(s) connected
+2016-04-11 20:29:00:342 - info: [debug] 0 emulator(s) connected
+2016-04-11 20:29:02:344 - info: [debug] Trying to find Nexus_S emulator
+2016-04-11 20:29:02:344 - info: [debug] Getting connected emulators
+2016-04-11 20:29:02:344 - info: [debug] Getting connected devices...
+2016-04-11 20:29:02:344 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb devices
+2016-04-11 20:29:02:362 - info: [debug] 0 device(s) connected
+2016-04-11 20:29:02:362 - info: [debug] 0 emulator(s) connected
+2016-04-11 20:29:04:369 - info: [debug] Trying to find Nexus_S emulator
+2016-04-11 20:29:04:369 - info: [debug] Getting connected emulators
+2016-04-11 20:29:04:370 - info: [debug] Getting connected devices...
+2016-04-11 20:29:04:370 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb devices
+2016-04-11 20:29:04:389 - info: [debug] 1 device(s) connected
+2016-04-11 20:29:04:389 - info: [debug] 1 emulator(s) connected
+2016-04-11 20:29:04:391 - info: [debug] Sending telnet command to device: avd name
+2016-04-11 20:29:04:393 - info: [debug] Getting running emulator port
+2016-04-11 20:29:04:398 - info: [debug] Socket connection to device created
+2016-04-11 20:29:04:399 - info: [debug] Socket connection to device ready
+2016-04-11 20:29:04:401 - info: [debug] Telnet command got response: Nexus_S
+2016-04-11 20:29:04:403 - info: [debug] Found emulator Nexus_S in port 5556
+2016-04-11 20:29:04:403 - info: [debug] Setting device id to emulator-5556
+2016-04-11 20:29:04:404 - info: [debug] Waiting until emulator is ready
+2016-04-11 20:29:04:404 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 shell "getprop init.svc.bootanim"
+2016-04-11 20:29:07:452 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 shell "getprop init.svc.bootanim"
+2016-04-11 20:29:10:549 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 shell "getprop init.svc.bootanim"
+2016-04-11 20:29:10:579 - info: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+2016-04-11 20:29:10:580 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 wait-for-device
+2016-04-11 20:29:10:595 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 shell "echo 'ready'"
+2016-04-11 20:29:10:627 - info: [debug] Starting logcat capture
+2016-04-11 20:29:10:643 - info: [debug] Getting device API level
+2016-04-11 20:29:10:643 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 shell "getprop ro.build.version.sdk"
+2016-04-11 20:29:10:691 - info: [debug] Device is at API Level 19
+2016-04-11 20:29:10:691 - info: Device API level is: 19
+2016-04-11 20:29:10:692 - info: [debug] Extracting strings for language: default
+2016-04-11 20:29:10:693 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 shell "getprop persist.sys.language"
+2016-04-11 20:29:10:731 - info: [debug] Current device persist.sys.language: en
+2016-04-11 20:29:10:731 - info: [debug] java -jar "/Applications/Appium.app/Contents/Resources/node_modules/appium/node_modules/appium-adb/jars/appium_apk_tools.jar" "stringsFromApk" "/Users/Admin/Downloads/android-release.apk" "/tmp/com.csod.mobile.CSOD" en
+2016-04-11 20:29:12:213 - info: [debug] No strings.xml for language 'en', getting default strings.xml
+2016-04-11 20:29:12:214 - info: [debug] java -jar "/Applications/Appium.app/Contents/Resources/node_modules/appium/node_modules/appium-adb/jars/appium_apk_tools.jar" "stringsFromApk" "/Users/Admin/Downloads/android-release.apk" "/tmp/com.csod.mobile.CSOD"
+2016-04-11 20:29:13:237 - info: [debug] Reading strings from converted strings.json
+2016-04-11 20:29:13:237 - info: [debug] Setting language to default
+2016-04-11 20:29:13:238 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 push "/tmp/com.csod.mobile.CSOD/strings.json" /data/local/tmp
+2016-04-11 20:29:13:262 - info: [debug] Checking whether aapt is present
+2016-04-11 20:29:13:262 - info: [debug] Using aapt from /Users/Admin/Library/Android/sdk/build-tools/24.0.0-preview/aapt
+2016-04-11 20:29:13:263 - info: [debug] Retrieving process from manifest.
+2016-04-11 20:29:13:263 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/build-tools/24.0.0-preview/aapt dump xmltree /Users/Admin/Downloads/android-release.apk AndroidManifest.xml
+2016-04-11 20:29:13:285 - info: [debug] Set app process to: com.csod.mobile.CSOD
+2016-04-11 20:29:13:286 - info: [debug] Not uninstalling app since server not started with --full-reset
+2016-04-11 20:29:13:286 - info: [debug] Checking app cert for /Users/Admin/Downloads/android-release.apk.
+2016-04-11 20:29:13:287 - info: [debug] executing cmd: java -jar /Applications/Appium.app/Contents/Resources/node_modules/appium/node_modules/appium-adb/jars/verify.jar /Users/Admin/Downloads/android-release.apk
+2016-04-11 20:29:15:545 - info: [debug] App already signed.
+2016-04-11 20:29:15:546 - info: [debug] Zip-aligning /Users/Admin/Downloads/android-release.apk
+2016-04-11 20:29:15:546 - info: [debug] Checking whether zipalign is present
+2016-04-11 20:29:15:547 - info: [debug] Using zipalign from /Users/Admin/Library/Android/sdk/build-tools/24.0.0-preview/zipalign
+2016-04-11 20:29:15:548 - info: [debug] Zip-aligning apk.
+2016-04-11 20:29:15:548 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/build-tools/24.0.0-preview/zipalign -f 4 /Users/Admin/Downloads/android-release.apk /var/folders/xs/6yjvxvzs4c1fq5fjm04hczfr0000gn/T/116311-2898-1sie6pt/appium.tmp
+2016-04-11 20:29:16:166 - info: [debug] MD5 for app is de4b990c6fb987a92c44c5688a779af5
+2016-04-11 20:29:16:167 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 shell "ls /data/local/tmp/de4b990c6fb987a92c44c5688a779af5.apk"
+2016-04-11 20:29:16:189 - info: [debug] Getting install status for com.csod.mobile.CSOD
+2016-04-11 20:29:16:189 - info: [debug] Getting device API level
+2016-04-11 20:29:16:190 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 shell "getprop ro.build.version.sdk"
+2016-04-11 20:29:16:210 - info: [debug] Device is at API Level 19
+2016-04-11 20:29:16:211 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 shell "pm list packages -3 com.csod.mobile.CSOD"
+2016-04-11 20:29:16:567 - info: [debug] App is not installed
+2016-04-11 20:29:16:567 - info: Installing App
+2016-04-11 20:29:16:568 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 shell "mkdir -p /data/local/tmp/"
+2016-04-11 20:29:16:590 - info: [debug] Removing any old apks
+2016-04-11 20:29:16:592 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 shell "ls /data/local/tmp/*.apk"
+2016-04-11 20:29:16:616 - info: [debug] Found an apk we want to keep at /data/local/tmp/de4b990c6fb987a92c44c5688a779af5.apk
+2016-04-11 20:29:16:617 - info: [debug] Couldn't find any apks to remove
+2016-04-11 20:29:16:617 - info: [debug] Uninstalling com.csod.mobile.CSOD
+2016-04-11 20:29:16:618 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 shell "am force-stop com.csod.mobile.CSOD"
+2016-04-11 20:29:16:996 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 uninstall com.csod.mobile.CSOD
+2016-04-11 20:29:17:347 - info: [debug] App was not uninstalled, maybe it wasn't on device?
+2016-04-11 20:29:17:348 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 shell "pm install -r /data/local/tmp/de4b990c6fb987a92c44c5688a779af5.apk"
+2016-04-11 20:29:17:917 - warn: Installing remote apk failed, going to uninstall and try again
+2016-04-11 20:29:17:917 - info: [debug] Removing any old apks
+2016-04-11 20:29:17:918 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 shell "ls /data/local/tmp/*.apk"
+2016-04-11 20:29:17:942 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 shell rm "/data/local/tmp/de4b990c6fb987a92c44c5688a779af5.apk"
+2016-04-11 20:29:17:965 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 push "/Users/Admin/Downloads/android-release.apk" /data/local/tmp/de4b990c6fb987a92c44c5688a779af5.apk
+2016-04-11 20:29:37:827 - info: --> GET /wd/hub/status {}
+2016-04-11 20:29:37:828 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}},"sessionId":"2b41814d-82fb-44a2-b96b-47d70d7b7b5a"}
+2016-04-11 20:29:37:831 - info: <-- GET /wd/hub/status 200 3.705 ms - 155 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}},"sessionId":"2b41814d-82fb-44a2-b96b-47d70d7b7b5a"}
+2016-04-11 20:29:41:746 - info: --> GET /wd/hub/status {}
+2016-04-11 20:29:41:746 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}},"sessionId":"2b41814d-82fb-44a2-b96b-47d70d7b7b5a"}
+2016-04-11 20:29:41:748 - info: <-- GET /wd/hub/status 200 2.058 ms - 155 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}},"sessionId":"2b41814d-82fb-44a2-b96b-47d70d7b7b5a"}
+2016-04-11 20:30:30:250 - info: [debug] Attempting to install again for the last time
+2016-04-11 20:30:30:251 - info: [debug] executing cmd: /Users/Admin/Library/Android/sdk/platform-tools/adb -s emulator-5556 shell "pm install -r /data/local/tmp/de4b990c6fb987a92c44c5688a779af5.apk"
+2016-04-11 20:30:30:708 - info: [debug] Stopping logcat capture
+2016-04-11 20:30:30:711 - info: [debug] Logcat terminated with code null, signal SIGTERM
+2016-04-11 20:30:30:712 - info: [debug] Sent shutdown command, waiting for UiAutomator to stop...
+2016-04-11 20:30:37:716 - warn: UiAutomator did not shut down fast enough, calling it gone
+2016-04-11 20:30:37:716 - info: [debug] Cleaning up android objects
+2016-04-11 20:30:37:717 - info: [debug] Cleaning up appium session
+2016-04-11 20:30:37:719 - error: Failed to start an Appium session, err was: Error: Remote install failed: pkg: /data/local/tmp/de4b990c6fb987a92c44c5688a779af5.apk
+Failure [INSTALL_FAILED_INSUFFICIENT_STORAGE]
+2016-04-11 20:30:37:724 - info: [debug] Error: Remote install failed: pkg: /data/local/tmp/de4b990c6fb987a92c44c5688a779af5.apk
+Failure [INSTALL_FAILED_INSUFFICIENT_STORAGE]
+    at /Applications/Appium.app/Contents/Resources/node_modules/appium/node_modules/appium-adb/lib/adb.js:1358:17
+    at [object Object].<anonymous> (/Applications/Appium.app/Contents/Resources/node_modules/appium/node_modules/appium-adb/lib/adb.js:180:9)
+    at ChildProcess.exithandler (child_process.js:742:7)
+    at ChildProcess.emit (events.js:110:17)
+    at maybeClose (child_process.js:1015:16)
+    at Socket.<anonymous> (child_process.js:1183:11)
+    at Socket.emit (events.js:107:17)
+    at Pipe.close (net.js:485:12)
+2016-04-11 20:30:37:725 - info: [debug] Responding to client with error: {"status":33,"value":{"message":"A new session could not be created. (Original error: Remote install failed: pkg: /data/local/tmp/de4b990c6fb987a92c44c5688a779af5.apk\r\nFailure [INSTALL_FAILED_INSUFFICIENT_STORAGE])","origValue":"Remote install failed: pkg: /data/local/tmp/de4b990c6fb987a92c44c5688a779af5.apk\r\nFailure [INSTALL_FAILED_INSUFFICIENT_STORAGE]"},"sessionId":null}
+2016-04-11 20:30:37:728 - info: <-- POST /wd/hub/session 500 115720.288 ms - 380 
+2016-04-11 20:30:38:983 - info: --> GET /wd/hub/status {}
+2016-04-11 20:30:38:983 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:30:38:984 - info: <-- GET /wd/hub/status 200 1.094 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:30:42:897 - info: --> GET /wd/hub/status {}
+2016-04-11 20:30:42:898 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:30:42:899 - info: <-- GET /wd/hub/status 200 1.695 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:31:40:135 - info: --> GET /wd/hub/status {}
+2016-04-11 20:31:40:135 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:31:40:137 - info: <-- GET /wd/hub/status 200 2.723 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:31:44:052 - info: --> GET /wd/hub/status {}
+2016-04-11 20:31:44:053 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:31:44:054 - info: <-- GET /wd/hub/status 200 1.764 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:32:41:291 - info: --> GET /wd/hub/status {}
+2016-04-11 20:32:41:291 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:32:41:292 - info: <-- GET /wd/hub/status 200 1.464 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:32:45:204 - info: --> GET /wd/hub/status {}
+2016-04-11 20:32:45:205 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:32:45:208 - info: <-- GET /wd/hub/status 200 3.857 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:33:42:444 - info: --> GET /wd/hub/status {}
+2016-04-11 20:33:42:445 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:33:42:446 - info: <-- GET /wd/hub/status 200 1.549 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:33:46:356 - info: --> GET /wd/hub/status {}
+2016-04-11 20:33:46:356 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:33:46:358 - info: <-- GET /wd/hub/status 200 2.369 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:34:43:600 - info: --> GET /wd/hub/status {}
+2016-04-11 20:34:43:601 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:34:43:602 - info: <-- GET /wd/hub/status 200 1.395 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:34:47:508 - info: --> GET /wd/hub/status {}
+2016-04-11 20:34:47:509 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:34:47:510 - info: <-- GET /wd/hub/status 200 1.490 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:35:44:756 - info: --> GET /wd/hub/status {}
+2016-04-11 20:35:44:756 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:35:44:757 - info: <-- GET /wd/hub/status 200 1.711 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:35:48:663 - info: --> GET /wd/hub/status {}
+2016-04-11 20:35:48:664 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:35:48:665 - info: <-- GET /wd/hub/status 200 1.767 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:36:45:909 - info: --> GET /wd/hub/status {}
+2016-04-11 20:36:45:910 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:36:45:912 - info: <-- GET /wd/hub/status 200 2.476 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:36:49:817 - info: --> GET /wd/hub/status {}
+2016-04-11 20:36:49:818 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:36:49:819 - info: <-- GET /wd/hub/status 200 1.901 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:37:47:061 - info: --> GET /wd/hub/status {}
+2016-04-11 20:37:47:062 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:37:47:063 - info: <-- GET /wd/hub/status 200 1.450 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:37:50:972 - info: --> GET /wd/hub/status {}
+2016-04-11 20:37:50:974 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:37:51:024 - info: <-- GET /wd/hub/status 200 53.071 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:38:48:214 - info: --> GET /wd/hub/status {}
+2016-04-11 20:38:48:215 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:38:48:216 - info: <-- GET /wd/hub/status 200 2.210 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:38:52:176 - info: --> GET /wd/hub/status {}
+2016-04-11 20:38:52:176 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:38:52:179 - info: <-- GET /wd/hub/status 200 2.141 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:39:49:362 - info: --> GET /wd/hub/status {}
+2016-04-11 20:39:49:363 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:39:49:364 - info: <-- GET /wd/hub/status 200 2.205 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:39:53:321 - info: --> GET /wd/hub/status {}
+2016-04-11 20:39:53:322 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:39:53:323 - info: <-- GET /wd/hub/status 200 1.831 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:40:50:444 - info: --> GET /wd/hub/status {}
+2016-04-11 20:40:50:444 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
+2016-04-11 20:40:50:446 - info: <-- GET /wd/hub/status 200 2.136 ms - 104 {"status":0,"value":{"build":{"version":"1.4.8","revision":"c8179bd8352d3c62d98fa58b324491230df9342a"}}}
